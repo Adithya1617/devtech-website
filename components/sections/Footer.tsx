@@ -21,15 +21,7 @@ const footerSections = [
       { label: "Contact", href: "#" },
     ]
   },
-  {
-    title: "Connect",
-    links: [
-      { label: "LinkedIn", href: "#" },
-      { label: "Twitter", href: "#" },
-      { label: "GitHub", href: "#" },
-      { label: "Newsletter", href: "#" },
-    ]
-  }
+ 
 ];
 
 export default function Footer() {
@@ -42,11 +34,12 @@ export default function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
+
           <div className="space-y-4">
             <div className="flex items-center space-x-2 transform hover:scale-105 transition-transform duration-300">
               <Brain className="h-8 w-8 text-purple-400" />
-              <span className="text-xl font-bold">DevTech AI</span>
+              <span className="text-xl font-bold">DevTechAi.Org</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
               Transforming businesses through intelligent AI solutions. 
@@ -74,7 +67,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 DevTech AI. All rights reserved. Privacy Policy | Terms of Service</p>
+          <p>&copy; 2025 devtechai.org All rights reserved. Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>

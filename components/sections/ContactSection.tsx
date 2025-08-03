@@ -11,21 +11,16 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: ["hello@devtechai.com", "support@devtechai.com"],
+    details: ["hello@devtechai.org", "support@devtechai.org"],
     color: "purple"
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+1 (555) 123-4567", "Mon-Fri 9AM-6PM EST"],
+    details: ["+91 77948 41440", "Mon-Fri 9AM-6PM IST"],
     color: "blue"
   },
-  {
-    icon: MapPin,
-    title: "Visit Us",
-    details: ["123 AI Innovation Drive", "San Francisco, CA 94105"],
-    color: "green"
-  }
+  
 ];
 
 const colorClasses = {
